@@ -27,7 +27,7 @@ Step 2: Place Project in htdocs
 --------------------------------
 Copy your CodeIgniter project folder into the XAMPP htdocs directory:
 
-C:\xampp\htdocs\jewelry
+C:\xampp\htdocs\jewellery
 
 Step 3: Configure Base URL
 ---------------------------
@@ -35,7 +35,7 @@ Open application/config/config.php
 
 Set your base URL:
 
-$config['base_url'] = 'http://localhost/jewelry/';
+$config['base_url'] = 'http://localhost/jewellery/';
 
 Step 4: Import the Database
 ----------------------------
@@ -55,7 +55,7 @@ $db['default'] = array(
     'hostname' => 'localhost',
     'username' => 'root',
     'password' => '',
-    'database' => 'jewelry',
+    'database' => 'product',
     'dbdriver' => 'mysqli',
     // other settings remain unchanged
 );
@@ -64,7 +64,7 @@ Step 6: Run the Project
 ------------------------
 Open your browser and navigate to:
 
-http://localhost/jewelry/
+http://localhost/jewellery/
 
 The homepage should load successfully if everything is set correctly
 
