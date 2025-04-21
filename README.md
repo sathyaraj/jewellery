@@ -1,2 +1,0 @@
-# jewelry
- Jewellery management
