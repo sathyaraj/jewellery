@@ -122,7 +122,7 @@ foreach ($get_product as $value) {
               </div>
 
               <div class="form-group">
-      <input name="inputprofile" id="inputprofile" type="hidden">
+      <input name="inputprofile" id="inputprofile" type="hidden" value="<?php echo base_url("upload/profile/"). $value->pimage; ?>">
     <img src="<?php echo base_url("upload/profile/"). $value->pimage; ?>" id="croppedPreview" class="img-thumbnail" style="margin-top: 20px; width:200px; height:200px" />
                         </div>
               </div>
